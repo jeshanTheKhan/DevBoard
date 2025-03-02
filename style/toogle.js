@@ -22,6 +22,8 @@ document.getElementById("ShopEase-btn").addEventListener("click", function () {
 
         const minus = convertedMain - 1;
         document.getElementById("mainbalance").innerText = minus;
+        const header = document.getElementById("h1").innerText;
+        document.getElementById("first-header").innerText = header;
 
 })
 document.getElementById("CloudSync-btn").addEventListener("click", function () {
@@ -39,6 +41,8 @@ document.getElementById("CloudSync-btn").addEventListener("click", function () {
 
         const minus = convertedMain - 1;
         document.getElementById("mainbalance").innerText = minus;
+        const header = document.getElementById("h2").innerText;
+        document.getElementById("second-header").innerText = header;
 
 })
 document.getElementById("SwiftPay-btn").addEventListener("click", function () {
@@ -56,6 +60,8 @@ document.getElementById("SwiftPay-btn").addEventListener("click", function () {
 
         const minus = convertedMain - 1;
         document.getElementById("mainbalance").innerText = minus;
+        const header = document.getElementById("h3").innerText;
+        document.getElementById("third-header").innerText = header;
 
 })
 document.getElementById("meta-btn").addEventListener("click", function () {
@@ -73,6 +79,8 @@ document.getElementById("meta-btn").addEventListener("click", function () {
 
         const minus = convertedMain - 1;
         document.getElementById("mainbalance").innerText = minus;
+        const header = document.getElementById("h4").innerText;
+        document.getElementById("fourth-header").innerText = header;
 
 })
 document.getElementById("google-btn").addEventListener("click", function () {
@@ -90,6 +98,9 @@ document.getElementById("google-btn").addEventListener("click", function () {
 
         const minus = convertedMain - 1;
         document.getElementById("mainbalance").innerText = minus;
+        const header = document.getElementById("h5").innerText;
+        document.getElementById("fifth-header").innerText = header;
+
 
 })
 document.getElementById("glassdoar-btn").addEventListener("click", function () {
@@ -107,6 +118,8 @@ document.getElementById("glassdoar-btn").addEventListener("click", function () {
 
         const minus = convertedMain - 1;
         document.getElementById("mainbalance").innerText = minus;
+        const header = document.getElementById("h6").innerText;
+        document.getElementById("sixth-header").innerText = header;
 
 })
 document.getElementById("clean-btn").addEventListener("click", function () {
@@ -158,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 document.getElementById("main-blog-box").addEventListener("click", function () {
     
-    document.location.href = 'main.html';
+    document.location.href = 'blog.html';
 
 
 });

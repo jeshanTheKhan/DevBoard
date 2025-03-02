@@ -46,7 +46,7 @@
       </div>
     </nav>
     <section class="mx-[140px] grid grid-flow-col gap-3 mt-2">
-      <div class="bg-white rounded-xl w-[1100px] h-[710px] pt-3">
+      <div class="bg-white rounded-xl w-[1100px] h-[750px] pt-3">
         <div class="flex gap-6">
           <div
             class="border rounded-xl w-[280px] h-[110px] bg-gray-200 flex pl-10 pt-8 gap-3 ml-6"
@@ -89,7 +89,7 @@
           <div class="border rounded-lg w-[330px] h-[260px] bg-[#F4F7FF] px-3 py-3 ml-5 ">
             <div class="grid gap-2">
               <h1 class="border w-1/3 px-3 py-1 bg-white rounded-2xl">ShopEase</h1>
-              <h1 class="text-2xl font-semibold">Fix Mobile Button Issue </h1>
+              <h1 class="text-2xl font-semibold" id="h1">Fix Mobile Button Issue </h1>
               <h1 class="border rounded-lg bg-white px-3 py-3 text-">Debug using Chrome DevTools,<br> check for overlapping ...</h1>
               <p class="text-gray-400">---------------------------------</p>
             </div>
@@ -105,7 +105,7 @@
           <div class="border rounded-lg w-[330px] h-[260px] bg-[#F4F7FF] px-3 py-3 ">
             <div class="grid gap-2">
               <h1 class="border w-[110px] px-3 py-1 bg-white rounded-2xl">CloudSync</h1>
-              <h1 class="text-2xl font-semibold">Add Dark Mode </h1>
+              <h1 class="text-2xl font-semibold" id="h2">Add Dark Mode </h1>
               <h1 class="border rounded-lg bg-white px-3 py-3">Debug using Chrome DevTools,<br> check for overlapping......</h1>
               <p class="text-gray-400">---------------------------------</p>
             </div>
@@ -121,7 +121,7 @@
           <div class="border rounded-lg w-[330px] h-[260px] bg-[#F4F7FF] px-3 py-3  ">
             <div class="grid gap-2">
               <h1 class="border w-1/3 px-3 py-1 bg-white rounded-2xl">SwiftPay</h1>
-              <h1 class="text-2xl font-semibold">Optimize Home Page </h1>
+              <h1 class="text-2xl font-semibold" id="h3">Optimize Home Page </h1>
               <h1 class="border rounded-lg bg-white px-3 py-3">Debug using Chrome DevTools,<br> check for overlapping......</h1>
               <p class="text-gray-400">---------------------------------</p>
             </div>
@@ -131,13 +131,13 @@
                 <h1>21 March 2025</h1>
               </div>
 
-              <button id="SwiftPay-btn" class="btn bg-[#3752FD] border-none text-white w-[150px]">Complete</button>
+              <button id="SwiftPay-btn" class="btn bg-[#3752FD] border-none text-white w-[150px]" >Complete</button>
             </div>
           </div>
           <div class="border rounded-lg w-[330px] h-[260px] bg-[#F4F7FF] px-3 py-3 ml-5 ">
             <div class="grid gap-2">
               <h1 class="border w-1/4 px-3 py-1 bg-white rounded-2xl">Meta</h1>
-              <h1 class="text-2xl font-semibold">Add New Emoji 🤲 </h1>
+              <h1 class="text-2xl font-semibold" id="h4">Add New Emoji 🤲 </h1>
               <h1 class="border rounded-lg bg-white px-3 py-3">Debug using Chrome DevTools,<br> check for overlapping......</h1>
               <p class="text-gray-400">---------------------------------</p>
             </div>
@@ -153,7 +153,7 @@
           <div class="border rounded-lg w-[330px] h-[260px] bg-[#F4F7FF] px-3 py-3">
             <div class="grid gap-2">
               <h1 class="border w-[110px] px-2 py-1 bg-white rounded-2xl">Google LLC</h1>
-              <h1 class="text-2xl font-semibold">Integrate OpenAi API </h1>
+              <h1 class="text-2xl font-semibold" id="h5">Integrate OpenAi API </h1>
               <h1 class="border rounded-lg bg-white px-3 py-3">Debug using Chrome DevTools,<br> check for overlapping......</h1>
               <p class="text-gray-400">---------------------------------</p>
             </div>
@@ -169,7 +169,7 @@
           <div class="border rounded-lg w-[330px] h-[260px] bg-[#F4F7FF] px-3 py-3 ">
             <div class="grid gap-2">
               <h1 class="border w-[110px] px-3 py-1 bg-white rounded-2xl">Glassdoar</h1>
-              <h1 class="text-2xl font-semibold">Improve Job Searching </h1>
+              <h1 class="text-2xl font-semibold" id="h6">Improve Job Searching </h1>
               <h1 class="border rounded-lg bg-white px-3 py-3">Debug using Chrome DevTools,<br> check for overlapping......</h1>
               <p class="text-gray-400">---------------------------------</p>
             </div>
@@ -186,7 +186,7 @@
       </div>
       
 
-      <div class="bg-white rounded-xl w-[300px] h-[710px]">
+      <div class="bg-white rounded-xl w-[300px] h-[750px]">
 
         <div class="flex items-center justify-center pt-2 gap-2">
           <img src="assets/activity.png" alt="">
@@ -197,22 +197,22 @@
         </div>
        <section>
         <section id="fix-mobile" class="border rounded-xl mx-3 my-2 px-3 py-3 bg-[#F4F7FF]">
-          <h1>You have Complete The Task Fix Mobile Button Issue  </h1>
+          <h1>You have Complete The Task <span id="first-header"></span> <span id="timeDisplay"></span>  </h1>
         </section>
         <section id="dark-mode" class="border rounded-xl mx-3 my-2 px-3 py-3 bg-[#F4F7FF]">
-          <h1>You have Complete The Task Add Dark Mode </h1>
+          <h1>You have Complete The <span id="second-header"></span> <span id="time"></span> </h1>
         </section>
         <section id="home-page" class="border rounded-xl mx-3 my-2 px-3 py-3 bg-[#F4F7FF]">
-          <h1>You have Complete The Task Optimize  Home page  </h1>
+          <h1>You have Complete The <span id="third-header"></span><span id="tim"> </h1>
         </section>
         <section id="add-emoji" class="border rounded-xl mx-3 my-2 px-3 py-3 bg-[#F4F7FF]">
-          <h1>You have Complete The Task Add new emoji 🤲 </h1>
+          <h1>You have Complete The <span id="fourth-header"></span> <span id="timee"></span> </h1>
         </section>
         <section id="open-api" class="border rounded-xl mx-3 my-2 px-3 py-3 bg-[#F4F7FF]">
-          <h1>You have Complete The Task Integrate OpenAI API  </h1>
+          <h1>You have Complete The <span id="fifth-header"></span> <span id="timeee"></span> </h1>
         </section>
         <section id="job-search" class="border rounded-xl mx-3 my-2 px-3 py-3 bg-[#F4F7FF]">
-          <h1>You have Complete The Task Improve Job searching  </h1>
+          <h1>You have Complete The Task <span id="sixth-header"></span> <span id="timeeeee"></span>  </h1>
         </section>
         <section id="review" class="border rounded-xl mx-3 my-2 px-3 py-3 bg-[#F4F7FF]">
           <h1>You have Complete All The Current Task  </h1>
@@ -221,6 +221,121 @@
       </div>
     </section>
   </body>
+  <script>
+    function updateDate() {
+      const now = new Date();
+
+      // Get day and month names
+      const days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+      const months = [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+      ];
+
+      // Format date as "Wed, Jul 28 2025"
+      const formattedDay = days[now.getDay()];
+      const formattedDate = `${
+        months[now.getMonth()]
+      } ${now.getDate()} ${now.getFullYear()}`;
+
+      // Set values to the HTML
+      document.getElementById("day").innerText = `${formattedDay},`;
+      document.getElementById("date").innerText = formattedDate;
+    }
+
+    // Call function on page load
+    updateDate();
+  </script>
+
+<script>
+  document.getElementById("ShopEase-btn").addEventListener("click", function() {
+      let now = new Date();
+      let hours = now.getHours();
+      let minutes = now.getMinutes();
+      let ampm = hours >= 12 ? 'PM' : 'AM';
+      hours = hours % 12;
+      hours = hours ? hours : 12; // Convert 0 to 12
+      minutes = minutes < 10 ? '0' + minutes : minutes;
+      let formattedTime = hours + ":" + minutes + " " + ampm;
+      document.getElementById("timeDisplay").innerText = "At: " + formattedTime;
+  });
+</script>
+
+<script>
+  document.getElementById("CloudSync-btn").addEventListener("click", function() {
+      let now = new Date();
+      let hours = now.getHours();
+      let minutes = now.getMinutes();
+      let ampm = hours >= 12 ? 'PM' : 'AM';
+      hours = hours % 12;
+      hours = hours ? hours : 12; // Convert 0 to 12
+      minutes = minutes < 10 ? '0' + minutes : minutes;
+      let formattedTime = hours + ":" + minutes + " " + ampm;
+      document.getElementById("time").innerText = "At: " + formattedTime;
+  });
+</script>
+<script>
+  document.getElementById("SwiftPay-btn").addEventListener("click", function() {
+      let now = new Date();
+      let hours = now.getHours();
+      let minutes = now.getMinutes();
+      let ampm = hours >= 12 ? 'PM' : 'AM';
+      hours = hours % 12;
+      hours = hours ? hours : 12; // Convert 0 to 12
+      minutes = minutes < 10 ? '0' + minutes : minutes;
+      let formattedTime = hours + ":" + minutes + " " + ampm;
+      document.getElementById("tim").innerText = "At: " + formattedTime;
+  });
+</script>
+<script>
+  document.getElementById("meta-btn").addEventListener("click", function() {
+      let now = new Date();
+      let hours = now.getHours();
+      let minutes = now.getMinutes();
+      let ampm = hours >= 12 ? 'PM' : 'AM';
+      hours = hours % 12;
+      hours = hours ? hours : 12; // Convert 0 to 12
+      minutes = minutes < 10 ? '0' + minutes : minutes;
+      let formattedTime = hours + ":" + minutes + " " + ampm;
+      document.getElementById("timee").innerText = "At: " + formattedTime;
+  });
+</script>
+<script>
+  document.getElementById("google-btn").addEventListener("click", function() {
+      let now = new Date();
+      let hours = now.getHours();
+      let minutes = now.getMinutes();
+      let ampm = hours >= 12 ? 'PM' : 'AM';
+      hours = hours % 12;
+      hours = hours ? hours : 12; // Convert 0 to 12
+      minutes = minutes < 10 ? '0' + minutes : minutes;
+      let formattedTime = hours + ":" + minutes + " " + ampm;
+      document.getElementById("timeee").innerText = "At: " + formattedTime;
+  });
+</script>
+<script>
+  document.getElementById("glassdoar-btn").addEventListener("click", function() {
+      let now = new Date();
+      let hours = now.getHours();
+      let minutes = now.getMinutes();
+      let ampm = hours >= 12 ? 'PM' : 'AM';
+      hours = hours % 12;
+      hours = hours ? hours : 12; // Convert 0 to 12
+      minutes = minutes < 10 ? '0' + minutes : minutes;
+      let formattedTime = hours + ":" + minutes + " " + ampm;
+      document.getElementById("timeeeee").innerText = "At: " + formattedTime;
+  });
+</script>
   <script>
     function updateDate() {
         const now = new Date();
